@@ -10,11 +10,11 @@
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
     <path id="JUnit 4.libraryclasspath">
-<<<<<<< HEAD
-=======
+
+
         <pathelement location="lib/junit.jar"/>
         <pathelement location="lib/org.hamcrest.core_1.3.0.v201303031735.jar"/>
->>>>>>> af8949a01f8694b9ac99589c3060f4d3c4d12871
+
     </path>
     <path id="CalculationsHw2.classpath">
         <pathelement location="bin"/>
