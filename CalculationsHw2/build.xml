@@ -51,4 +51,18 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
+              	<target name="war" description="Bundles the application as a WAR file" depends="clean, build">
+              	    <mkdir dir="WebContent/WEB-INF/classes"/>
+              	     
+              	    <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+              	            <fileset dir="build/classes">
+              	            <include name="**/*.class"/>
+              	            </fileset>
+              	    </copy>
+              	     
+              	    <war destfile="UploadServlet30.war"
+              	        basedir="WebContent"
+              	        needxmlfile="false">
+              	    </war>
+              	</target>          	
 </project>
