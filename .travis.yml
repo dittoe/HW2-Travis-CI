@@ -1,5 +1,2 @@
-language: java
-
-jdk:
-  - oraclejdk8
-script: ant build
+language: java 
+install: ant
