@@ -9,8 +9,8 @@
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
     <path id="JUnit 4.libraryclasspath">
-        <pathelement location="../../../Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
-        <pathelement location="../../../Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+        <pathelement location="lib/junit.jar"/>
+        <pathelement location="lib/org.hamcrest.core_1.3.0.v201303031735.jar"/>
     </path>
     <path id="CalculationsHw2.classpath">
         <pathelement location="bin"/>
